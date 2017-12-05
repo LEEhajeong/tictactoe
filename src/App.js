@@ -18,4 +18,21 @@ class App extends Component {
   }
 }
 
+class Board extends Component {
+  renderSquare(i){
+      return <Square value={i} />;
+  }
+}
+
+
+class Square extends Component {
+  render(){
+      return(
+          <button className="square">
+          {this.props.value}
+          </button>
+      );
+  }
+}
+
 export default App;

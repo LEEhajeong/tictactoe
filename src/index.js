@@ -8,14 +8,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
 
-class Board extends React.Component {
-    renderSquare(i){
-        return <Square value={i} />;
-    }
-}
 
-
-  
 
   
     
